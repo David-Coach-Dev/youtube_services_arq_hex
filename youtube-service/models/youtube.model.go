@@ -17,7 +17,7 @@ type Items struct {
 	Title        string  `json:"title"`
 	Description  string  `json:"description"`
 	Channel      string  `json:"channel"`
-	Live         string  `json:"liveBroadcastContent"`
+	Live         string  `json:"live"`
 	URL          string  `json:"url"`
 	Thumbnails   string  `json:"thumbnails"`
 }

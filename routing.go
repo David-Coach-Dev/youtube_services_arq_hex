@@ -23,7 +23,7 @@ func CreateRouters(youtubeAdapter ports.ForYouTube) *gin.Engine {
 	if ginMode == "" {
 		ginMode = "debug"
 	}
-	//gin.SetMode(ginMode)
+	gin.SetMode(ginMode)
 
 	// Create a new router
 	router := gin.Default()
